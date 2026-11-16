@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Crimlawn-night</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="theme-color" content="#000000">
+  <link rel="preload" as="image" href="assets/rooms/room_closed_unlit_clear.jpg">
+  <link rel="preload" as="image" href="assets/arm_phone_off.png">
+  <link rel="preload" as="image" href="assets/arm_phone_on.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="stage" role="application" aria-label="Crimlawn-night: a one-room horror game">
+    <img id="room" src="assets/rooms/room_closed_unlit_clear.jpg" alt="A dark bedroom seen from bed, with a closed door" draggable="false" decoding="async">
+    <div id="vignette" aria-hidden="true"></div>
+    <img id="arm" src="assets/arm_phone_off.png" alt="Your hand holding a phone with its screen turned away from you" draggable="false" decoding="async">
+
+    <header id="title" aria-label="Game title">CRIMLAWN-NIGHT</header>
+    <section id="meta" aria-label="Night status">
+      <div><span id="clock">22:47</span></div>
+      <div id="moment">NIGHT 01 / 10</div>
+      <div id="batteryText">BATTERY 60%</div>
+      <div id="batteryTrack" aria-hidden="true"><div id="batteryFill"></div></div>
+    </section>
+
+    <div id="status" role="status" aria-live="polite">DRAG THE HAND TOWARD THE DOOR.</div>
+
+    <section id="endPanel" hidden aria-label="Night result">
+      <div>
+        <h1 id="endTitle">THE NIGHT ENDS.</h1>
+        <p id="endDetail"></p>
+        <button id="restart" type="button">ANOTHER NIGHT</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="game.js"></script>
+</body>
+</html>
