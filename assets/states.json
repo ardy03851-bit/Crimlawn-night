@@ -1,0 +1,80 @@
+{
+  "title": "Crimlawn Night",
+  "size": [
+    1024,
+    768
+  ],
+  "same_room_source": "source/room_master.png",
+  "doors": [
+    "closed",
+    "open"
+  ],
+  "lights": [
+    "unlit",
+    "dying",
+    "weak",
+    "lit"
+  ],
+  "anomalies": [
+    "clear",
+    "tyne_far",
+    "tyne_mid",
+    "tyne_near",
+    "tyne_left",
+    "tyne_reach"
+  ],
+  "anomalyTypes": [
+    "Beckton Tyne",
+    "the open door"
+  ],
+  "files": {
+    "closed|unlit|clear": "rooms/room_closed_unlit_clear.jpg",
+    "closed|unlit|tyne_far": "rooms/room_closed_unlit_tyne_far.jpg",
+    "closed|unlit|tyne_mid": "rooms/room_closed_unlit_tyne_mid.jpg",
+    "closed|unlit|tyne_near": "rooms/room_closed_unlit_tyne_near.jpg",
+    "closed|unlit|tyne_left": "rooms/room_closed_unlit_tyne_left.jpg",
+    "closed|unlit|tyne_reach": "rooms/room_closed_unlit_tyne_reach.jpg",
+    "closed|dying|clear": "rooms/room_closed_dying_clear.jpg",
+    "closed|dying|tyne_far": "rooms/room_closed_dying_tyne_far.jpg",
+    "closed|dying|tyne_mid": "rooms/room_closed_dying_tyne_mid.jpg",
+    "closed|dying|tyne_near": "rooms/room_closed_dying_tyne_near.jpg",
+    "closed|dying|tyne_left": "rooms/room_closed_dying_tyne_left.jpg",
+    "closed|dying|tyne_reach": "rooms/room_closed_dying_tyne_reach.jpg",
+    "closed|weak|clear": "rooms/room_closed_weak_clear.jpg",
+    "closed|weak|tyne_far": "rooms/room_closed_weak_tyne_far.jpg",
+    "closed|weak|tyne_mid": "rooms/room_closed_weak_tyne_mid.jpg",
+    "closed|weak|tyne_near": "rooms/room_closed_weak_tyne_near.jpg",
+    "closed|weak|tyne_left": "rooms/room_closed_weak_tyne_left.jpg",
+    "closed|weak|tyne_reach": "rooms/room_closed_weak_tyne_reach.jpg",
+    "closed|lit|clear": "rooms/room_closed_lit_clear.jpg",
+    "closed|lit|tyne_far": "rooms/room_closed_lit_tyne_far.jpg",
+    "closed|lit|tyne_mid": "rooms/room_closed_lit_tyne_mid.jpg",
+    "closed|lit|tyne_near": "rooms/room_closed_lit_tyne_near.jpg",
+    "closed|lit|tyne_left": "rooms/room_closed_lit_tyne_left.jpg",
+    "closed|lit|tyne_reach": "rooms/room_closed_lit_tyne_reach.jpg",
+    "open|unlit|clear": "rooms/room_open_unlit_clear.jpg",
+    "open|unlit|tyne_far": "rooms/room_open_unlit_tyne_far.jpg",
+    "open|unlit|tyne_mid": "rooms/room_open_unlit_tyne_mid.jpg",
+    "open|unlit|tyne_near": "rooms/room_open_unlit_tyne_near.jpg",
+    "open|unlit|tyne_left": "rooms/room_open_unlit_tyne_left.jpg",
+    "open|unlit|tyne_reach": "rooms/room_open_unlit_tyne_reach.jpg",
+    "open|dying|clear": "rooms/room_open_dying_clear.jpg",
+    "open|dying|tyne_far": "rooms/room_open_dying_tyne_far.jpg",
+    "open|dying|tyne_mid": "rooms/room_open_dying_tyne_mid.jpg",
+    "open|dying|tyne_near": "rooms/room_open_dying_tyne_near.jpg",
+    "open|dying|tyne_left": "rooms/room_open_dying_tyne_left.jpg",
+    "open|dying|tyne_reach": "rooms/room_open_dying_tyne_reach.jpg",
+    "open|weak|clear": "rooms/room_open_weak_clear.jpg",
+    "open|weak|tyne_far": "rooms/room_open_weak_tyne_far.jpg",
+    "open|weak|tyne_mid": "rooms/room_open_weak_tyne_mid.jpg",
+    "open|weak|tyne_near": "rooms/room_open_weak_tyne_near.jpg",
+    "open|weak|tyne_left": "rooms/room_open_weak_tyne_left.jpg",
+    "open|weak|tyne_reach": "rooms/room_open_weak_tyne_reach.jpg",
+    "open|lit|clear": "rooms/room_open_lit_clear.jpg",
+    "open|lit|tyne_far": "rooms/room_open_lit_tyne_far.jpg",
+    "open|lit|tyne_mid": "rooms/room_open_lit_tyne_mid.jpg",
+    "open|lit|tyne_near": "rooms/room_open_lit_tyne_near.jpg",
+    "open|lit|tyne_left": "rooms/room_open_lit_tyne_left.jpg",
+    "open|lit|tyne_reach": "rooms/room_open_lit_tyne_reach.jpg"
+  }
+}
